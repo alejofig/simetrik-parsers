@@ -13,9 +13,9 @@ def create_layout(
     version: str = "1.0.0",
     description: str = ""
 ):
-    """Crea un nuevo layout JSON en src/simetrik_parsers/application/layouts/{name}.json"""
-    # Directorio donde se guardarán los layouts
-    layouts_dir = Path(__file__).parent / "application" / "layouts"
+    """Crea un nuevo layout JSON en application/layouts/{name}.json (relativo a CWD)"""
+    # Directorio donde se guardarán los layouts, relativo a CWD
+    layouts_dir = Path.cwd() / "application" / "layouts"
     layouts_dir.mkdir(parents=True, exist_ok=True)
     file_path = layouts_dir / f"{name}.json"
     # Si ya existe, abortar
@@ -38,9 +38,9 @@ def create_layout(
 
 @app.command()
 def create_parser(name: str):
-    """Genera un nuevo parser en src/simetrik_parsers/application/parsers/{name}.py"""
-    # Directorio donde se guardarán los parsers
-    parsers_dir = Path(__file__).parent / "application" / "parsers"
+    """Genera un nuevo parser en application/parsers/{name}.py (relativo a CWD)"""
+    # Directorio donde se guardarán los parsers, relativo a CWD
+    parsers_dir = Path.cwd() / "application" / "parsers"
     parsers_dir.mkdir(parents=True, exist_ok=True)
     file_path = parsers_dir / f"{name}.py"
     # Si ya existe, abortar

@@ -1,0 +1,9 @@
+{
+    "name": "baz",
+    "description": "desc",
+    "version": "2.0.0",
+    "pipeline": {
+        "pipeline": []
+    },
+    "dict_columns": {}
+}

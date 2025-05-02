@@ -1,0 +1,9 @@
+{
+    "name": "dup",
+    "description": "",
+    "version": "1.0.0",
+    "pipeline": {
+        "pipeline": []
+    },
+    "dict_columns": {}
+}
