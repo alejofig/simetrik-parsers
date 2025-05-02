@@ -1,0 +1,9 @@
+[run]
+omit =
+    src/simetrik_parsers/domain/base/base_parser.py
+
+[report]
+# Mostrar líneas faltantes
+show_missing = True
+exclude_lines =
+    pragma: no cover 
