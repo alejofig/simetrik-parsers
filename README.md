@@ -1,7 +1,6 @@
 # simetrik-parsers
 
-[![Tests](https://github.com/alejofig/simetrik-parsers/actions/workflows/ci.yml/badge.svg)](https://github.com/alejofig/simetrik-parsers/actions)
-[![Coverage](https://codecov.io/gh/alejofig/simetrik-parsers/branch/master/graph/badge.svg)](https://codecov.io/gh/alejofig/simetrik-parsers)
+[![Coverage Status](https://img.shields.io/codecov/c/github/alejofig/simetrik-parsers?logo=codecov&logoColor=white)](https://codecov.io/gh/alejofig/simetrik-parsers)
 
 **Simetrik Parsers** es un SDK y herramienta de línea de comandos en Python para generar *stubs* de parsers que transforman datos no estructurados o semi-estructurados en un entorno controlado por Simetrik (Startup SaaS).
 
@@ -35,7 +34,7 @@ simetrik-parsers --help
 ### create-parser
 
 Genera un *stub* de parser en:
-```
+```bash
 src/simetrik_parsers/application/parsers/<nombre>.py
 ```
 
