@@ -1,5 +1,7 @@
 # simetrik-parsers
 
+![Coverage](https://img.shields.io/badge/coverage-98%25-brightgreen)
+
 **Simetrik Parsers** es un SDK y herramienta de línea de comandos en Python para generar *stubs* de parsers que transforman datos no estructurados o semi-estructurados en un entorno controlado por Simetrik (Startup SaaS).
 
 ---
